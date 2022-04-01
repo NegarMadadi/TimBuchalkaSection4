@@ -12,7 +12,8 @@ public class StatementsWhitespaceAndIndentation {
                 "another" +
                 "plus more.");
 
-
+        int anotherVariable = 50;
+        myVariable--;
     }
 
 
