@@ -50,8 +50,7 @@ public class AreaCalculator {
         if (radius < 0){
             return -1.0;
         }
-        double circleArea = radius * radius * Math.PI;
-        return circleArea;
+        return radius * radius * Math.PI;
     }
 
 
@@ -59,7 +58,6 @@ public class AreaCalculator {
         if (x < 0 || y<0 ){
             return -1.0;
         }
-        double rectangleArea = x * y;
-        return rectangleArea;
+        return x * y;
     }
 }
